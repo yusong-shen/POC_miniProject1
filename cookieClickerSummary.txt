@@ -1,0 +1,19 @@
+Cursor : tot_cookies:153,308,849,165.8996582(1.53e+11), cur_cookies:6,965,195,661.4984093(6.9e+9), 
+cur_time:10000000000.0000000, CPS:16.1000000
+None : tot_cookies:10,000,000,000.0000000(1.00e+11), cur_cookies:10,000,000,000.0000000(1.00e+11), 
+cur_time:10000000000.0000000, CPS:1.0000000
+Cheap : tot_cookies:1,152,859,356,212,787,584.0000000(1.15e+15), cur_cookies:149,360,255,735,977.9375000(1.49e+14), 
+cur_time:10000000000.0000000, CPS:123,436,706.2999998(1.23e+8)
+Expensive : tot_cookies:683,676,443,442,532,096.0000000(6.83e+17), cur_cookies:2414.6461208(2.4e+3), 
+cur_time:10000000000.0000000, CPS:133,980,795.6999997(1.33e+8)
+Best1(0.1) : tot_cookies:1,223,623,190,380,860,928.0000000(1.22e+18), cur_cookies:4,950,538,196,110,444.0000000(4.95e+15), 
+cur_time:10000000000.0000000, CPS:135146587(1.35e+8).2999987
+Best2(most_efficient) : tot_cookies:1314018864995952384.0000000(1.31e+18), cur_cookies:57028878943.2177429(5.7e+10), 
+cur_time:10000000000.0000000, CPS:140318078.6999996, 
+last_item:Cursor
+
+Summary:
+For duration 10^10s (about 317 years)
+
+Total cookies
+Stratedy : Best2(most_efficient) > Best1(0.1) > Expensive > Cheap > Curser > None
