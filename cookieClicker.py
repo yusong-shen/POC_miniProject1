@@ -1,13 +1,17 @@
 """
 Cookie Clicker Simulator
 """
+try:
+    import simpleplot
 
-import simpleplot
+except ImportError:
+    import SimpleGUICS2Pygame.simpleplot as simpleplot
+
 import math
 
 # Used to increase the timeout, if necessary
-import codeskulptor
-codeskulptor.set_timeout(20)
+# import codeskulptor
+# codeskulptor.set_timeout(20)
 
 import poc_clicker_provided as provided
 # Build_info class
@@ -346,7 +350,7 @@ def run():
     run_strategy("Best2", SIM_TIME, strategy_best)
     run_strategy("Best3", SIM_TIME, strategy_best3)
     
-# run()
+run()
     
 # # testing __init__ , __str__, get_cookies,
 # # get_cps, get_time, get_history
